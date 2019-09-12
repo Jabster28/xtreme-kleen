@@ -1,0 +1,169 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+      <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">Javascript</a></li>
+              <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <style>
+      .parallax {
+        /* The image used */
+        background-image: url("https://cdn.glitch.com/415a5059-d5df-4140-8642-879343d652a7%2Fcleaning-products-t.jpg?v=1568221147337");
+
+        /* Set a specific height */
+        height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .idk {
+        /* The image used */
+        background-image: url("https://cdn.glitch.com/415a5059-d5df-4140-8642-879343d652a7%2Fcleaning-products.jpg?v=1568221850572");
+
+        /* Set a specific height */
+        height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <!-- Container element -->
+    <div class="content">
+      <div class="parallax">
+        <header>
+          <h1 class="center-align  red-text text-accent-3">
+            <span class="big">X</span>treme <span class="big">K</span>leen
+          </h1>
+        </header>
+      </div>
+      <div class="row">
+        <div class="col s6 push-s6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Lorem Ipsum</span>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorem numquam pariatur suscipit quisquam, sunt excepturi magni
+                aspernatur totam quis doloribus nobis consequuntur itaque dicta
+                dolor, fugit blanditiis laborum ducimus vel?
+              </p>
+              <div class="card-action">
+                <a href="Lorem">Lorem</a>
+                <a href="Ipsum">Ipsum</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 pull-s6">
+          <p class="flow-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Id
+            aliquet risus feugiat in ante metus dictum at. Eget velit aliquet
+            sagittis id consectetur purus ut. Et netus et malesuada fames. Non
+            consectetur a erat nam. Scelerisque eu ultrices vitae auctor eu
+            augue ut lectus. Tincidunt arcu non sodales neque sodales. Accumsan
+            sit amet nulla facilisi morbi tempus. Sit amet aliquam id diam
+            maecenas. Condimentum lacinia quis vel eros. Sollicitudin aliquam
+            ultrices sagittis orci a scelerisque purus semper. Facilisi morbi
+            tempus iaculis urna id. Morbi quis commodo odio aenean sed. Sed odio
+            morbi quis commodo odio aenean sed.
+          </p>
+        </div>
+      </div>
+      <div class="idk"></div>
+      <p class="flow-text">
+        In ante metus dictum at tempor. Sodales neque sodales ut etiam sit.
+        Nulla posuere sollicitudin aliquam ultrices sagittis orci. Eu facilisis
+        sed odio morbi quis commodo. Euismod elementum nisi quis eleifend quam
+        adipiscing. Dignissim cras tincidunt lobortis feugiat vivamus at augue
+        eget. Blandit aliquam etiam erat velit scelerisque in dictum non. Sed
+        risus ultricies tristique nulla aliquet enim. Lacinia at quis risus sed
+        vulputate odio ut. Varius morbi enim nunc faucibus a pellentesque sit
+        amet. Massa sed elementum tempus egestas sed sed risus pretium quam. Non
+        quam lacus suspendisse faucibus interdum posuere lorem ipsum. Nibh sed
+        pulvinar proin gravida hendrerit. Varius quam quisque id diam vel quam
+        elementum pulvinar etiam. Proin libero nunc consequat interdum varius
+        sit amet mattis. Laoreet non curabitur gravida arcu ac tortor dignissim.
+        Facilisi morbi tempus iaculis urna. Id nibh tortor id aliquet lectus
+        proin nibh. Fusce id velit ut tortor. Ultrices in iaculis nunc sed.
+        Morbi tincidunt augue interdum velit euismod. Sit amet nulla facilisi
+        morbi tempus iaculis urna id. Ultrices in iaculis nunc sed augue.
+        Facilisis magna etiam tempor orci eu lobortis. Nulla facilisi nullam
+        vehicula ipsum a arcu cursus vitae congue. Ullamcorper morbi tincidunt
+        ornare massa eget. Feugiat pretium nibh ipsum consequat nisl. Egestas
+        congue quisque egestas diam in arcu cursus. Habitasse platea dictumst
+        vestibulum rhoncus est pellentesque. Lacus laoreet non curabitur gravida
+        arcu ac tortor. Id eu nisl nunc mi ipsum. Id volutpat lacus laoreet non
+        curabitur gravida. Vitae aliquet nec ullamcorper sit amet risus nullam
+        eget.
+      </p>
+    </div>
+  </body>
+</html>

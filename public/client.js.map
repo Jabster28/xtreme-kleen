@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "client.js",
+  "sourceRoot": "..",
+  "sources": [
+    "public/client.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;;;;;;;;;;;;;;;;;;;;;;;;AAyBA,CAAA,CAAE,QAAA,CAAA,CAAA;EACA,CAAA,CAAE,OAAF,CAAU,CAAC,IAAX,CAAA;EACA,CAAA,CAAE,OAAF,CAAU,CAAC,SAAX,CAAA;EACA,CAAA,CAAE,MAAF,CAAS,CAAC,QAAV,CAAmB,QAAnB;EACA,CAAA,CAAE,IAAF,CAAO,CAAC,GAAR,CAAY,OAAZ,EAAqB,SAArB;SACA,CAAA,CAAE,UAAF,CAAa,CAAC,OAAd,CAAA;AALA,CAAF",
+  "sourcesContent": [
+    "# dreams = [  'Find ann count some sheep',\n\n#   'Climb a really tall mountain',\n#   'Wash the dishes'\n# ]\n\n# dreamsList = document.getElementById 'dreams'\n# dreamsForm = document.forms[0]\n# dreamInput = dreamsForm.elements['dream']\n  \n# appendNewDream = (dream) ->\n#   newListItem = document.createElement 'li'\n#   newListItem.innerHTML = dream\n#   dreamsList.appendChild newListItem\n#   `\n#   console.log(2)\n#   `\n# appendNewDream dream for dream in dreams\n \n# dreamsForm.onsubmit = (event) ->\n#   event.preventDefault()\n#   dreams.push dreamInput.value\n#   appendNewDream dreamInput.value\n#   dreamInput.value = ''\n\n$ ->\n  $('.card').hide()\n  $('.card').slideDown()\n  $('body').addClass 'loaded'\n  $('h1').css 'color', '#222222'\n  $('.sidenav').sidenav()"
+  ]
+}
