@@ -15,5 +15,5 @@ cache:
 before_script:
   - yarn build
 script:
-  - yarn start && wait-on http://localhost:3000
+  - pm2 start server.js && wait-on http://localhost:3000
   - yarn run cypress run --record
