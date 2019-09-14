@@ -1,34 +1,21 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "name": "xtreme-kleen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jabster28/xtreme-kleen",
+  "author": "Justyn Boyer <29015942+Jabster28@users.noreply.github.com>",
+  "license": "MIT",
   "scripts": {
-    "start": "cp cake.coffee Cakefile && cake build && node server.js"
+    "build": "yarn run cake both",
+    "start": "node server.js",
+    "test": "yarn run cypress run"
   },
   "dependencies": {
-    "coffeescript": "^2.4.1",
-    "express": "^4.16.4",
-    "coffeelint": "^2.1.0"
+    "cypress": "^3.4.1",
+    "express": "^4.17.1"
   },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ],
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.3.0",
-    "eslint-plugin-coffeescript": "^1.0.0"
+    "coffeescript": "^2.4.1",
+    "pm2": "^3.5.1"
   }
 }
