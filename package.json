@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "cypress": "^3.4.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "wait-on": "^3.3.0"
   },
   "devDependencies": {
     "coffeescript": "^2.4.1",
