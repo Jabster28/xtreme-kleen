@@ -7,7 +7,8 @@ app.get '/', (q, s) ->
   s.sendFile __dirname + '/views/index.html'
 
 # listen for requests :)
-listener = app.listen process.env.PORT, ->
+listener = app.listen 3000, ->
   console.log 'Your app is listening on port ' + listener.address().port
+
 
 

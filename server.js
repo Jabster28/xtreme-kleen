@@ -14,7 +14,7 @@
   });
 
   // listen for requests :)
-  listener = app.listen(process.env.PORT, function() {
+  listener = app.listen(3000, function() {
     return console.log('Your app is listening on port ' + listener.address().port);
   });
 
