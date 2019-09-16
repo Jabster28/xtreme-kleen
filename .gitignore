@@ -3,4 +3,3 @@ cypress/screenshots
 cypress/videos
 server.js
 public/*.js
-cypress/integration
