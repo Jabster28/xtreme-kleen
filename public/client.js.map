@@ -3,7 +3,7 @@
   "file": "client.js",
   "sourceRoot": "..",
   "sources": [
-    "public\\client.coffee"
+    "public/client.coffee"
   ],
   "names": [],
   "mappings": ";AAAA;;;;;;;;;;;;;;;;;;;;;;;;AAyBA,CAAA,CAAE,QAAA,CAAA,CAAA;EACA,CAAA,CAAE,OAAF,CAAU,CAAC,IAAX,CAAA;EACA,CAAA,CAAE,OAAF,CAAU,CAAC,SAAX,CAAA;EACA,CAAA,CAAE,MAAF,CAAS,CAAC,QAAV,CAAmB,QAAnB;EACA,CAAA,CAAE,IAAF,CAAO,CAAC,GAAR,CAAY,OAAZ,EAAqB,SAArB;SACA,CAAA,CAAE,UAAF,CAAa,CAAC,OAAd,CAAA;AALA,CAAF",
