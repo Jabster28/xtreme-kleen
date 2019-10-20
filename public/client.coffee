@@ -24,6 +24,8 @@
 #   dreamInput.value = ''
 
 $ ->
+  $.get "nav.html", (data) ->
+    $(".nav").replaceWith data
   $('.card').hide()
   $('.card').slideDown()
   $('body').addClass 'loaded'
