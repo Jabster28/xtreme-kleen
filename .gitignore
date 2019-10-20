@@ -6,3 +6,4 @@ public/*.js
 *.swp
 *.log
 ignore/
+*.map
