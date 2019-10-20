@@ -5,3 +5,4 @@ server.js
 public/*.js
 *.swp
 *.log
+ignore/
