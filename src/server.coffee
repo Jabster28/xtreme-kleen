@@ -8,6 +8,10 @@ app.get '/', (q, s) ->
 
 app.get '/contact', (q, s) ->
   s.sendFile __dirname + '/views/contact.html'
+	
+app.get '/sitemap.xml', (q, s) ->
+  s.sendFile __dirname + '/sitemap.xml'
+
 app.get '/nav.html', (q, s) ->
   s.sendFile __dirname + '/views/nav.html'
 app.get '/.well-known/acme-challenge/Twaz2rO5M8okvGQqe3foxFPa29Nuz8qiw8sCQ7ThSw4', (q,s) ->
