@@ -6,7 +6,7 @@ task 'build', 'Build project from src/*.coffee to
     throw err if err
     console.log stdout + stderr
     console.log "Finished step 1" if not err
-    console.log "2: Compiling files in public..."
+    console.log "--- 2: Compiling files in public... ---"
     exec 'coffee -m --bare --compile public/', (err2, stdout, stderr) ->
       throw err if err2
       console.log stdout + stderr
