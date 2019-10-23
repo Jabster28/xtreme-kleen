@@ -21,4 +21,7 @@ jobs:
           key: v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - ~/.cache ## cache both yarn and Cypress!
-      - run: yarn start && $(yarn bin)/cypress run ## --record --key <record_key>
+      - run:
+          name: Start Server
+          command: $(yarn bin)/pm2 start server.js
+      - run: $(yarn bin)/cypress run ## --record --key <record_key>
