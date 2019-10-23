@@ -27,4 +27,4 @@ jobs:
       - run:
           name: Start Server
           command: $(yarn bin)/pm2 start server.js
-      - run: $(yarn bin)/cypress run ## --record --key <record_key>
+      - run: $(yarn bin)/cypress run --record --key $RECORD_KEY
