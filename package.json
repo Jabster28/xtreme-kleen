@@ -17,7 +17,7 @@
     "wait-on": "^3.3.0"
   },
   "devDependencies": {
-    "coffeescript": "^2.4.1",
-    "pm2": "^4.1.2"
+    "coffeescript": "2.4.1",
+    "pm2": "4.1.2"
   }
 }
